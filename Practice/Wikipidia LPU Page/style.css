@@ -1,0 +1,74 @@
+.list{
+    border: 1px solid black;
+    width: 150px;
+    /* background-color: pink; */
+}
+/* hr{
+    margin-top: -1px;
+} */
+h2{
+    margin-bottom: 1px;
+}
+/* 
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+ 
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+   */
+  /* div.desc {
+    padding: 15px;
+    text-align: center;
+  } */
+  .affiliations-body{
+    display: flex;
+    float: right;
+    margin-left: 15px;
+  }
+  .gallery{
+    display: flex;
+    float: left;
+    margin-left: 5px;
+
+  }
+  /* .schools{
+    margin-top: 5px;
+    background-color: pink;
+  } */
+
+  
+  .sideContainer{
+    display: flex;
+    float: left;
+    /* margin: 10px; */
+  }
+  .bodyContainer{
+    display: flex;
+    float: right;
+    margin: 15px;
+  }
+  .sideNav {
+    border-right: 1px solid blue;
+    /* height: 1000px; */
+  }
+  .nav-link{
+    /* border-left: 1px solid skyblue ;
+    border-right: 1px solid skyblue ; */
+    border-bottom: 1px solid skyblue ;
+    /* background-color: skyblue ; */
+    /* opacity: 50%; */
+  }
+  .logo{
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    font-size: small;
+  }
