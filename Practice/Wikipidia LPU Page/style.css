@@ -9,35 +9,20 @@
 h2{
     margin-bottom: 1px;
 }
-/* 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
- 
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-   */
-  /* div.desc {
-    padding: 15px;
-    text-align: center;
-  } */
-  .affiliations-body{
+
+  /* .affiliations-body{
     display: flex;
     float: right;
     margin-left: 15px;
-  }
+  }*/
   .gallery{
-    display: flex;
-    float: left;
-    margin-left: 5px;
+    border: 1px solid black;
+    padding: 5px;
 
+  } 
+  figcaption{
+    font-size: small;
+    margin: 5px;
   }
   /* .schools{
     margin-top: 5px;
@@ -56,7 +41,7 @@ div.gallery {
     margin: 15px;
   }
   .sideNav {
-    border-right: 1px solid blue;
+    border-right: 1px solid rgb(165, 165, 243);
     /* height: 1000px; */
   }
   .nav-link{
@@ -72,3 +57,22 @@ div.gallery {
     width: 300px;
     font-size: small;
   }
+  .cen{
+    text-align: center;
+    margin: 10px;
+  }
+  .logo{
+    background-color: rgb(252, 250, 250);
+    margin-top: -200px;
+    height: 700px;
+  }
+  
+ li a{
+    text-decoration: none;
+  }
+  div h2{
+    margin-bottom: -10px;
+  }
+  /* *{
+    font-size: medium;
+  } */
