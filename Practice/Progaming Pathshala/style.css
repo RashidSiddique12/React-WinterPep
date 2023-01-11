@@ -1,0 +1,30 @@
+/* nav{
+    border: 1px solid blue;
+} */
+
+.icon{
+    margin: 15px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    /* margin-top: -10px; */
+    text-decoration: none;
+    color: black;
+}
+.card{
+    float:left;
+    clear:none;
+    /* margin: 100px; */
+}
+.cd{
+    margin: 100px;
+}
+.ach td h1{
+    padding: 120px;
+    padding-bottom: 0px;
+    color: rgb(103, 103, 184);
+    /* background-color: pink; */
+    
+}
+.ach td p{
+    text-align: center;
+}
