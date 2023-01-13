@@ -1,30 +1,708 @@
-/* nav{
-    border: 1px solid blue;
+/* .navbar{
+  position: absolute;
+  width: 1540px;
+  height: 79px;
+  left: 0px;
+  top: 0px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+} */
+/* .form{
+  position: absolute;
+  right: -0px;
+  top: 300px
 } */
 
-.icon{
-    margin: 15px;
-    margin-top: -10px;
-    margin-bottom: -10px;
-    /* margin-top: -10px; */
-    text-decoration: none;
-    color: black;
+.cardp{
+  /* position: absolute; */
+/* width: 239px; */
+/* height: 21px; */
+/* left: 976px; */
+/* top: 239px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 149.8%; */
+/* identical to box height, or 21px */
+
+text-align: center;
+
+color: #4F516B;
 }
-.card{
-    float:left;
-    clear:none;
-    /* margin: 100px; */
+.icon {
+  margin: 15px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  /* margin-top: -10px; */
+  text-decoration: none;
+  color: black;
 }
-.cd{
-    margin: 100px;
+.card {
+  float: left;
+  clear: none;
+  /* margin: 100px; */
 }
-.ach td h1{
-    padding: 120px;
-    padding-bottom: 0px;
-    color: rgb(103, 103, 184);
-    /* background-color: pink; */
-    
+.cd {
+  margin: 100px;
 }
-.ach td p{
-    text-align: center;
+.ach td h1 {
+  padding: 120px;
+  padding-bottom: 0px;
+  color: rgb(103, 103, 184);
+  /* background-color: pink; */
+}
+.ach td p {
+  text-align: center;
+}
+.rightbox {
+  background: linear-gradient(
+    180deg,
+    #444bab 0%,
+    rgba(99, 167, 211, 0.265625) 73.44%,
+    rgba(110, 200, 225, 0) 100%
+  );
+}
+.btn {
+  background: linear-gradient(91.59deg, #444bab 1.85%, #3ca5c2 99.69%);
+}
+.offerings {
+  /* Our Offerings */
+
+  position: absolute;
+  width: 135px;
+  height: 30px;
+  left: 657px;
+  top: 2277px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #444cab;
+}
+.forOrgan {
+  /* For Organisations */
+
+  /* For Organisations */
+
+  position: absolute;
+  width: 325px;
+  height: 54px;
+  left: 559px;
+  top: 2325px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 149.8%;
+  /* identical to box height, or 54px */
+
+  color: #444557;
+}
+.colleges {
+  position: absolute;
+  width: 450px;
+  height: 320px;
+  left: 122px;
+  top: 2504px;
+
+  background: url(colleg.png);
+  border-radius: 10px;
+}
+
+.collegsContent {
+  position: absolute;
+  width: 653px;
+  height: 45px;
+  left: 667px;
+  top: 2562px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 149.8%;
+  /* identical to box height, or 45px */
+
+  color: #4f516b;
+}
+.collegesPara {
+  position: absolute;
+  width: 653px;
+  height: 57px;
+  left: 667px;
+  top: 2626px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  /* or 27px */
+
+  color: #505050;
+}
+
+.know {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  left: 701px;
+  top: 2729px;
+  border: 2px solid #3e8ebc;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* or 30px */
+
+  background: linear-gradient(180deg, #3e8ebc 0%, #444bab 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hirehead {
+  /* Hire From Us */
+
+  position: absolute;
+  width: 191px;
+  height: 45px;
+  left: 124px;
+  top: 2949px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 149.8%;
+  /* identical to box height, or 45px */
+
+  text-align: center;
+
+  color: #4f516b;
+}
+.hirePara {
+  position: absolute;
+  width: 605px;
+  height: 81px;
+  left: 124px;
+  top: 3010px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  /* or 27px */
+
+  color: #505050;
+}
+
+.hireBtn {
+  position: absolute;
+  width: 140px;
+  height: 30px;
+  left: 151px;
+  top: 3110px;
+  border: 2px solid #3e8ebc;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* or 30px */
+
+  background: linear-gradient(180deg, #444bab 0%, #3e8ebc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hireImg {
+  position: absolute;
+  /* width: 490px;
+height: 300px; */
+  left: 1000px;
+  top: 2910px;
+
+  /* background: url(https://img.freepik.com/free-photo/smiling-diverse-businesswomen-shake-hands-group-meeting-deal-concept_1163-4686.jpg?w=996&t=st=1673521146~exp=1673521746~hmac=7699550956f13b203625caf166c4b54b84f48a2402fc274e70f325e77f076d5e); */
+  border-radius: 10px;
+}
+.alumni {
+}
+.alumni h6 {
+  position: absolute;
+  width: 244px;
+  height: 30px;
+  left: 124px;
+  top: 3516px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #444bab;
+}
+.alumni h3 {
+  position: absolute;
+  width: 633px;
+  height: 158px;
+  left: 124px;
+  top: 3560px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 149.8%;
+  /* or 54px */
+
+  color: #4f516b;
+}
+.alumni p {
+  position: absolute;
+  width: 611px;
+  height: 186px;
+  left: 124px;
+  top: 3742px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* or 30px */
+
+  color: #444557;
+}
+.google {
+  position: absolute;
+  /* width: 169px;
+  height: 169px; */
+  left: 808px;
+  top: 3514px;
+}
+.amazon {
+  /* amazon-logo-vector 1 */
+
+  position: absolute;
+  /* width: 169px;
+  height: 169px; */
+  left: 967px;
+  top: 3454px;
+
+  /* background: url(https://cdn-icons-png.flaticon.com/512/5968/5968269.png); */
+}
+.micro {
+  position: absolute;
+  /* width: 157px;
+height: 31px; */
+  left: 1185px;
+  top: 3516px;
+
+  /* background: url(micro.png); */
+}
+.adobe {
+  position: absolute;
+  /* width: 122px;
+height: 30px; */
+  left: 808px;
+  top: 3605px;
+}
+.razor {
+  position: absolute;
+  /* width: 160px;
+height: 34px; */
+  left: 974px;
+  top: 3601px;
+}
+.flipkart {
+  position: absolute;
+  /* width: 149px;
+height: 38px; */
+  left: 1185px;
+  top: 3597px;
+}
+.hotstar {
+  position: absolute;
+  /* width: 128px;
+height: 59px; */
+  left: 806px;
+  top: 3682px;
+}
+.walmart {
+  position: absolute;
+  /* width: 167px;
+height: 41px; */
+  left: 974px;
+  top: 3691px;
+}
+.zynga {
+  position: absolute;
+  width: 144px;
+  height: 34px;
+  left: 1179px;
+  top: 3695px;
+}
+.ola {
+  position: absolute;
+  /* width: 91px;
+height: 32px; */
+  left: 806px;
+  top: 3779px;
+}
+.media {
+  position: absolute;
+  /* width: 169px;
+height: 43px; */
+  left: 969px;
+  top: 3779px;
+}
+.bharatPe {
+  position: absolute;
+  /* width: 169px;
+height: 43px; */
+  left: 1179px;
+  top: 3779px;
+}
+.goldman {
+  position: absolute;
+  /* width: 101px;
+height: 66px; */
+  left: 806px;
+  top: 3858px;
+}
+.zest {
+  position: absolute;
+  /* width: 132.64px;
+height: 42.71px; */
+  left: 974px;
+  top: 3870px;
+}
+.oyo {
+  position: absolute;
+  /* width: 92px;
+  height: 48px; */
+  left: 1185px;
+  top: 3867px;
+}
+.minihead {
+  position: absolute;
+  width: 200px;
+  height: 30px;
+  left: 623px;
+  top: 4172px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #444bab;
+}
+.head {
+  position: absolute;
+  width: 574px;
+  height: 54px;
+  left: 429px;
+  top: 4220px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 149.8%;
+  /* identical to box height, or 54px */
+
+  text-align: center;
+
+  color: #4f516b;
+}
+.zeal {
+  position: absolute;
+  width: 171px;
+  height: 171px;
+  left: 240px;
+  top: 4372px;
+
+  /* background: url(Zeal Vagadia.jpg); */
+  border-radius: 200px;
+}
+.zealamazon {
+  position: absolute;
+  /* width: 150px;
+height: 56px; */
+  left: 249px;
+  top: 4554px;
+}
+.coma {
+  position: absolute;
+  width: 52px;
+  height: 81px;
+  left: 456px;
+  top: 4305px;
+
+  font-family: "Plantagenet Cherokee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 151px;
+  line-height: 149.8%;
+  /* or 226px */
+
+  color: rgba(132, 141, 199, 0.44);
+}
+.sucessIntro {
+  position: absolute;
+  width: 683px;
+  height: 75px;
+  left: 535px;
+  top: 4374px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 149.8%;
+  /* or 27px */
+
+  color: #000000;
+}
+.zealName {
+  position: absolute;
+  width: 136px;
+  height: 30px;
+  left: 535px;
+  top: 4479px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #000000;
+}
+.linkdln {
+  position: absolute;
+  /* width: 24px;
+height: 24px; */
+  left: 671px;
+  top: 4478px;
+}
+.point1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 683px;
+  top: 4594px;
+  border-radius: 50%;
+
+  background: #c4c4c4;
+}
+.point2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 720px;
+  top: 4594px;
+
+  background: #3e8ebc;
+  border-radius: 50%;
+}
+.point3 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 757px;
+  top: 4594px;
+
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+.readMore {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 182px;
+  height: 44px;
+  left: 637px;
+  top: 4655px;
+  border: 2px solid #444bab;
+
+  border-radius: 6px;
+}
+.readMore h6 {
+  position: absolute;
+  /* width: 138px; */
+  /* height: 18px; */
+  /* left: 660px; */
+  /* top: 4668px; */
+
+  font-family: "Gilroy-Bold";
+  font-size: 20px;
+  line-height: 19px;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+
+  background: linear-gradient(180deg, #444bab 0%, #3e8ebc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.leadminihead {
+  position: absolute;
+  width: 218px;
+  height: 30px;
+  left: 607px;
+  top: 4816px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 149.8%;
+  /* identical to box height, or 30px */
+
+  text-align: center;
+
+  color: #444bab;
+}
+
+.leadhead {
+  position: absolute;
+  width: 572px;
+  height: 54px;
+  left: 431px;
+  top: 4864px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 149.8%;
+  /* identical to box height, or 54px */
+
+  text-align: center;
+
+  color: #4f516b;
+}
+
+.leader {
+  position: absolute;
+  width: 1577px;
+  /* 1441px */
+  height: 755px;
+  left: 0px;
+  top: 4978px;
+
+  background: linear-gradient(
+    96.55deg,
+    rgba(62, 142, 188, 0.62) 0%,
+    rgba(63, 126, 184, 0.536146) 30.88%,
+    rgba(65, 106, 179, 0.429948) 84.64%,
+    rgba(67, 81, 173, 0.301779) 99.02%,
+    rgba(68, 75, 171, 0.67) 102.21%
+  );
+}
+
+.vimg {
+  position: absolute;
+  width: 166.22px;
+  height: 179.49px;
+  left: 100.58px;
+  top: -71px;
+}
+.vivek {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 368px;
+  height: 552px;
+  left: 102px;
+  top: 131px;
+
+  background: #ffffff;
+  border: 1px solid rgba(132, 144, 199, 0.35);
+}
+.vivek div{
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  left: 111px;
+  top: 117px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 149.8%;
+  /* or 24px */
+
+  color: #272834;
+}
+.vivek h6 {
+  position: absolute;
+  width: 227px;
+  height: 15px;
+  left: 71px;
+  top: 149px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 149.8%;
+  /* or 18px */
+  font-size: smaller;
+
+  color: #67686b;
+}
+.vivek p {
+  position: absolute;
+  width: 326px;
+  height: 250px;
+  left: 21px;
+  top: 191px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 163.8%;
+  /* or 25px */
+
+  text-align: center;
+
+  color: #505050;
+  font-size: larger;
 }
