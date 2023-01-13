@@ -635,12 +635,14 @@ height: 24px; */
   );
 }
 
-.vimg {
-  position: absolute;
-  width: 166.22px;
-  height: 179.49px;
-  left: 100.58px;
-  top: -71px;
+.vivek img {
+  /* position: absolute; */
+  width: 139.55px;
+height: 137.26px;
+  margin-left: 100.58px;
+  margin-top: -71px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 60%;
 }
 .vivek {
   box-sizing: border-box;
@@ -705,4 +707,76 @@ height: 24px; */
 
   color: #505050;
   font-size: larger;
+}
+
+.bharatimg{
+  position: absolute;
+width: 139.55px;
+height: 137.26px;
+left: 777.44px;
+top: 5069.74px;
+
+/* background: url(6a7dc45e-8aef-4d01-90a5-8388b1f45bb8-removebg-preview.png); */
+transform: matrix(-1, 0, 0, 1, 0, 0);
+background-color: pink;
+}
+
+.bharatName{
+  
+position: absolute;
+width: 125px;
+height: 20px;
+left: 779.44px;
+top: 5226px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 149.8%;
+/* or 24px */
+
+
+color: #272834;
+background-color: palegoldenrod;
+}
+
+.bharatIntro{
+  position: absolute;
+width: 313px;
+height: 250px;
+left: 681px;
+top: 5301px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 163.8%;
+/* or 25px */
+
+text-align: center;
+
+color: #505050;
+
+
+
+
+}
+
+.bharat{
+  box-sizing: border-box;
+
+/* position: absolute; */
+width: 368px;
+height: 552px;
+margin-left: 645px;
+margin-top: 130px;
+
+background: #FFFFFF;
+border: 1px solid rgba(132, 144, 199, 0.35);
+}
+
+.bharat p{
+  
 }
