@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet" />
+        <!-- <script>
+            function addTodo() {
+                // Get value from input
+                const inputBox = document.getElementById("input-box");
+                const text = inputBox.value;
+
+                // Create div list-item
+                const listItem = document.createElement("div");
+                listItem.className = "list-item";
+                const checkbox = document.createElement("input");
+                checkbox.type = "checkbox";
+                
+
+                const p = document.createElement("p");
+                p.innerText = text;
+
+                checkbox.onclick = () => {
+                    if (checkbox.checked) {
+                        p.className = "striked";
+                    } else {
+                        p.className = "";
+                    }
+                }
+
+                const button = document.createElement("button");
+                button.className = "delete";
+                button.innerText = 'x';
+
+                button.onclick = () => {
+                    listItem.remove();
+                }
+
+                listItem.appendChild(checkbox);
+                listItem.appendChild(p);
+                listItem.appendChild(button);
+
+                // Append that to the list divs
+                const listDiv = document.getElementById("list");
+                listDiv.append(listItem);
+                inputBox.value = "";
+            }
+        </script> -->
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h2>Todo</h2>
+            <input id="input-box" />
+            <button id="addButton" onclick="addTodo()">Add Todo</button>
+        </div>
+        <div id="list">
+            
+            <!-- <div class="list-item">
+                <input type="checkbox" onclick="strikeTodo(this)" />
+                <p>Exercise</p>
+                <button class="delete">x</button>
+            </div>
+            <div class="list-item">
+                <input type="checkbox" />
+                <p class="striked">Exercise</p>
+                <button class="delete">x</button>
+            </div> -->
+            <hr />
+        </div>
+    </body>
+</html>

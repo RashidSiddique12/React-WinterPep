@@ -1,0 +1,28 @@
+#container {
+    border: 1px solid red;
+    padding: 40px;
+    width: 300px;
+    margin-left: 450px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.list-item p {
+    padding: 0 20px;
+    
+}
+
+.delete {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    
+}
+
+.striked {
+    text-decoration: line-through;
+}
